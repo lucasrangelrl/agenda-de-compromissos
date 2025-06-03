@@ -80,10 +80,27 @@ O desenvolvimento desse sistema visa facilitar o controle de compromissos, atend
                                | - hora          |
                                +-----------------+
 ```
+# 7. Dicionário de Dados
+
+## Classe `Compromisso`
+
+| Atributo    | Tipo de Dado | Descrição                                 |
+|-------------|--------------|-------------------------------------------|
+| `titulo`    | `String`     | Título do compromisso.                    |
+| `descricao` | `String`     | Descrição detalhada do compromisso.       |
+| `data`      | `LocalDate`  | Data do compromisso (formato dd/MM/yyyy). |
+| `hora`      | `LocalTime`  | Hora do compromisso (formato HH:mm).      |
 
 ---
 
-## 7. Informações Adicionais
+## Classe `AgendaView`
+
+| Atributo       | Tipo de Dado                     | Descrição                                         |
+|----------------|----------------------------------|---------------------------------------------------|
+| `compromissos` | `ObservableList<Compromisso>`    | Lista de compromissos exibidos na interface.      |
+---
+
+## 8. Informações Adicionais
 
 - Projeto desenvolvido para a disciplina de Programação Orientada a Objetos em Java da Wyden | UniRuy.
 - Professor: Heleno Cardoso.
@@ -91,13 +108,19 @@ O desenvolvimento desse sistema visa facilitar o controle de compromissos, atend
 
 ---
 
-## 8. Repositório GitHub
+## 9. Repositório GitHub
 
 https://github.com/lucasrangelrl/agenda-de-compromissos
 
 ---
+## 10. Requisitos para Versão Mobile/Web (Considerações)  
+Este projeto foi desenvolvido inicialmente como aplicação desktop em JavaFX. Embora o objetivo do trabalho seja entregar uma aplicação web/mobile completa, o foco foi na versão desktop funcional.
 
-## 9. Considerações Finais
+Devido ao prazo e nível de conhecimento atual, a versão responsiva para dispositivos móveis não foi implementada, mas está prevista para futuras melhorias.
+
+O projeto atende aos requisitos funcionais e não funcionais básicos, mas para apresentação, é importante explicar essa limitação ao professor, destacando a intenção de evolução do projeto.
+
+## 11. Considerações Finais
 
 Este sistema visa oferecer uma solução prática para o gerenciamento diário de compromissos, com foco em usabilidade e funcionalidade, atendendo às exigências do curso e preparando a base para futuras melhorias e adaptações para plataformas web ou mobile.
 
