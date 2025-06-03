@@ -93,7 +93,7 @@ O desenvolvimento desse sistema visa facilitar o controle de compromissos, atend
 
 ## 8. Repositório GitHub
 
-[https://github.com/lucasrangelrl/GerenciadorDeCompromissos](https://github.com/lucasrangelrl/GerenciadorDeCompromissos)
+https://github.com/lucasrangelrl/agenda-de-compromissos
 
 ---
 
